@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Homepage</title>
+</head>
+<body>
+
+    <h1>Welcome to the Homepage</h1>
+
+    <p>Yep</p>
+
+    <form action="/predict" method="POST">
+        <label>First Screen Name:</label>
+        <input type="text" name="first_screen_name" placeholder="elonmusk" value="elonmusk">
+        <br>
+
+        <label>Second Screen Name:</label>
+        <input type="text" name="second_screen_name" placeholder="justinbieber" value="justinbieber">
+        <br>
+
+        <label>Example Tweet Text:</label>
+        <input type="text" name="tweet_text" placeholder="Tesla Model S production facility is amazing" value="Tesla Model S production facility is amazing">
+        <br>
+
+        <button>Predict!</button>
+    </form>
+
+</body>
+</html>
